@@ -1,2 +1,61 @@
 /* Mobile first si trova gia di default nel file style.css,
  quindi aggiungo solo i @media per il tablet e desktop*/
+
+ /*TABLET DA 768px a 1023px*/
+ @media (min-width: 768px) {
+
+ 
+	/* Header */
+	#topbar {
+		justify-content: space-between;
+	}
+
+	/* Recipe header */
+	.recipe header {
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.recipe-title {
+		width: 70%;
+	}
+
+	.recipe-origin {
+		display: inline;
+	}
+
+	/* layout a due colonne */
+	.recipe-card {
+		display: flex;
+	}
+
+	.recipe-video {
+		width: 60%;
+		height: auto;
+	}
+
+	.recipe-info {
+		width: 40%;
+	}
+
+	/* label visibile */
+	.social-networks .label {
+		display: inline;
+	}
+
+	/* immagine affiancata al testo */
+	 .presentation p img {
+		float: left;
+		margin: 5px 20px 10px 0;
+	}
+
+	.presentation p {
+		text-align: justify;
+	}
+
+	/*banner pubblicita visibile*/
+	.ads {
+		display: block;
+		text-align: center;
+	}
+}
