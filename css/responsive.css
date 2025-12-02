@@ -59,3 +59,59 @@
 		text-align: center;
 	}
 }
+/* DESKTOP da 1024px in su*/
+@media (min-width: 1024px) {
+
+	.container {
+		max-width: 1200px;
+	}
+
+	/* Header */
+	#topbar {
+		padding: 0 40px;
+	}
+
+	/* Titolo ricetta */
+	.recipe header {
+		align-items: flex-end;
+	}
+
+	.recipe-title h2 {
+		font-size: 2.2rem;
+	}
+
+	/* Recipe card ancora più larga */
+	.recipe-card {
+		display: flex;
+	}
+
+	.recipe-video {
+		width: 65%;
+	}
+
+	.recipe-info {
+		width: 35%;
+		padding: 40px;
+	}
+
+	/* Social buttons allineati */
+	.social-networks {
+		justify-content: space-around;
+	}
+
+	/* Presentation layout stile desktop */
+	.presentation p img {
+		max-width: 350px;
+	}
+
+	.presentation p {
+		font-size: 1rem;
+		line-height: 1.8rem;
+	}
+
+	/* Footer più grande */
+	footer {
+		font-size: 0.9rem;
+		padding: 40px;
+	}
+}
